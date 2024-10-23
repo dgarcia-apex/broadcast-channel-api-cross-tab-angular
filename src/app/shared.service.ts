@@ -31,6 +31,7 @@ export class SharedService {
             console.log('Unknown message type:', type);
             break;
         }
+        console.log(type, payload);
       });
     };
   }
